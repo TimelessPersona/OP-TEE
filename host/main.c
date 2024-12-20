@@ -97,8 +97,8 @@ int main(int argc, char** argv)
 
 	uint32_t err_origin;
 	// text arrays	
-	char plaintext[64] = {0,};
-	char ciphertext[64] = {0,};
+	char plaintext[RSA_MAX_PLAIN_LEN_1024] = {0,};
+	char ciphertext[RSA_CIPHER_LEN_1024] = {0,};
 	char key[2] = {0};
 	int len=64;
 
